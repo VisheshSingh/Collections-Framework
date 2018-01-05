@@ -8,3 +8,18 @@ What are Collections?
 
 What are Wrapper Classes:
 It wraps your primitive datatype into an object. Provide you with the objects of same datatype.
+
+ROOT PACKAGE:
+java.util.Collection
+
+Other packages: java.util.Set, java.util.List, java.util.Queue, etc
+
+Methods:
+add(E e)
+addAll(Collection c)
+clear()
+contains(Object o)
+isEmpty()
+remove()
+size()
+toArray()
