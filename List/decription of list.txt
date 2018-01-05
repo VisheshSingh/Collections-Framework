@@ -32,7 +32,7 @@ l.add("sample 2");
 l.get(0) //sample 1
 l.remove(1) //sample 2 will be deleted
 
-3. Vector: It is one of the legacy Classes in Collection
+3.Vector: It is one of the legacy Classes in Collection
 
 - Maintains insertion order
 - Synchronized
@@ -41,3 +41,21 @@ eg: Vector v = new Vector();
 Vector v = new Vector(int capacity);
 Vector V = new Vector(Collection C);
 Vector v - new Vector(int capacity, int capacityIncrement);
+
+Important vector methods:
+addElement(Object element)
+removeElement(Object element)
+removeAll(Collection c)
+capacity()
+remove()
+contains()
+
+
+4.Stack: LIFO 
+- The top element of the stack has an index 1
+Methods:
+push()
+peek()
+pop()
+search(Object o)
+empty()
