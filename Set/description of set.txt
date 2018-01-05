@@ -1,0 +1,25 @@
+Set: EnumSet, HashSet, LinkedHashSet, TreeSet
+java.util.Set
+
+- No duplicates are allowed
+
+eg:
+Set s = new HashSet();
+s.add("data");
+Sysout(s.contains("data"))
+
+1. EnumSet: works with enumeration datatype
+- Not-synchronized
+- Enumeration datatype belongs to a group for ex: a deck of cards, etc
+enum color{
+RED, BLUE, GREEN;
+}
+
+2.HashSet:
+- Does not maintain the order of elements
+
+3.LinkedHashSet:
+- Maintains the order of elements
+
+4. TreeSet:
+- Presents the elements in sorted order; ascending by default
