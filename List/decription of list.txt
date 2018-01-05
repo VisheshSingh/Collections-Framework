@@ -1,0 +1,32 @@
+Lists: Array List, Linked List, Stack, Vector:
+
+1.Array List:
+- ordered, maintains insertion order
+- Can contain duplicate elements
+- non-synchronized
+- not thread safe
+- Used for storing and accessing the data
+- Reorganization of data is tedious
+
+ArrayList()
+ArrayList(Collection C)
+ArrayList(int capacity)
+eg: List l = new ArrayList();
+l.add("sample 1");
+l.add("sample 2");
+l.get(0) //sample 1
+l.remove(1) //sample 2 will be deleted
+
+2.Linked List:
+- ordered, maintains insertion order
+- Can contain duplicate elements
+- non-synchronized
+- not thread safe
+- Used for manipulating the data
+- reorganizing is simple because of the address location
+
+eg: List l = new LinkedList<String>(); //GENERIC WAY OF CREATING A LIST WITH DATATYPE
+l.add("sample 1");
+l.add("sample 2");
+l.get(0) //sample 1
+l.remove(1) //sample 2 will be deleted
