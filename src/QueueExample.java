@@ -11,6 +11,7 @@ public class QueueExample {
 		dq.offer("Richard");
 		dq.offer("Elrich");
 		dq.offer("Jared");
+		dq.offer("Monica");
 		System.out.println("The list contains: ");
 
 		for (String d : dq) {
